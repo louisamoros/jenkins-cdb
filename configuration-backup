@@ -1,0 +1,12 @@
+# Configuration backup if new build image is launched:
+
+ => create new job
+ => name it "cdb"
+ => in menu "gestion de code source" check "Git" checkbox
+ => add repo: "https://github.com/louisamoros/computerdatabase"
+ => add following sheel script:
+docker pull louisamoros/jdk8-mvn-cdb
+docker rm -f jdk8-mvn-cdb
+docker create --name jdk8-mvn-cdb louisamoros/jdk8-mvn-cdb
+docker cp . jdk8-mvn-cdb:cdb
+docker start -a jdk8-mvn-cdb
