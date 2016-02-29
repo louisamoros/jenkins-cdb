@@ -1,0 +1,10 @@
+jdk8-mvn-cdb:
+  image: louisamoros/jdk8-mvn-cdb
+  container_name: jdk8-mvn-cdb
+  links:
+    - myql-test-cdb:localhost
+mysql-test-cdb:
+  image: louisamoros/mysql-test-cdb
+  container_name: mysql-test-cdb
+  environment:
+    MYSQL_ROOT_PASSWORD: "root"
