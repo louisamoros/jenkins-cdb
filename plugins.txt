@@ -1,10 +1,10 @@
-dockerhub:latest
+greenballs:1.15
 scm-api:latest
+icon-shim:2.0.3
+credentials:1.25
+plain-credentials:1.1
 git:latest
 git-client:latest
 github:latest
 github-api:latest
-github-oauth:latest
-xunit:latest
-token-macro:1.11
-plain-credentials:1.1
+token-macro:latest
