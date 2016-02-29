@@ -32,7 +32,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>sh /usr/share/jenkins/jenkins-cdb-script.sh</command>
+      <command>sh /usr/share/jenkins/config/up.sh</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
