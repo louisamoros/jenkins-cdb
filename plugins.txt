@@ -6,3 +6,5 @@ github:latest
 github-api:latest
 github-oauth:latest
 xunit:latest
+token-macro:latest
+plain-credentials:latest
