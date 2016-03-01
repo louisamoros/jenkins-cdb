@@ -1,0 +1,3 @@
+FROM tomcat:8-jre8
+
+COPY cdb.war webapps/cdb.war
